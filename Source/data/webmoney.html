@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <title>E-Shop Digital Goods* - WebMoney</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+</head>
+<body id="pageRedirectToProvider">
+    You will be redirected
+    <form id="formRedirectToProvider" name="formRedirectToProvider" method="post" action="https://merchant.webmoney.ru:443/lmi/payment.asp">
+        <TABLE>
+            <TR>
+                <TD>
+                    <input type="hidden" name="LMI_PAYEE_PURSE" value="@Model.LMI_PAYEE_PURSE">
+                </TD>
+            </TR>
+            <TR>
+                <TD>
+                    <input type="hidden" name="LMI_PAYMENT_AMOUNT" value="@Model.LMI_PAYMENT_AMOUNT">
+                </TD>
+            </TR>
+            <TR>
+                <TD>
+                    <input type="hidden" name="LMI_PAYMENT_DESC" value="@Model.LMI_PAYMENT_DESC">
+                </TD>
+            </TR>
+            <TR>
+                <TD>
+                    <input type="hidden" name="LMI_SHOP_ID" value="@Model.LMI_SHOP_ID">
+                </TD>
+            </TR>
+            <TR>
+                <TD>
+                    <input type="hidden" name="LMI_RESULT_URL" value="@Model.LMI_RESULT_URL">
+                </TD>
+            </TR>
+            <TR>
+                <TD>
+                    <input type="hidden" name="LMI_SUCCESS_URL" value="@Model.LMI_SUCCESS_URL">
+                </TD>
+            </TR>
+            <TR>
+                <TD>
+                    <input type="hidden" name="LMI_SUCCESS_METHOD" value="@Model.LMI_SUCCESS_METHOD">
+                </TD>
+            </TR>
+            <TR>
+                <TD>
+                    <input type="hidden" name="LMI_FAIL_URL" value="@Model.LMI_FAIL_URL">
+                </TD>
+            </TR>
+            <TR>
+                <TD>
+                    <input type="hidden" name="LMI_FAIL_METHOD" value="@Model.LMI_FAIL_METHOD">
+                </TD>
+            </TR>
+            <TR>
+                <TD>
+                    <input type="hidden" name="REF" value="@Model.REF">
+                </TD>
+            </TR>
+            <TR>
+                <TD>
+                    <input type="hidden" name="PAYMENTREFERENCE" value="@Model.PAYMENTREFERENCE">
+                </TD>
+            </TR>
+        </TABLE> <span class="ORB_REDIRECT">
+            <input id="button3" type="submit" value="Go" />Click here if you are not automatically redirected
+        </span>
+
+    </form>
+    <script>
+    $(function()
+    {
+        $('#formRedirectToProvider').submit();
+    });
+    </script>
+</body>
+</html>

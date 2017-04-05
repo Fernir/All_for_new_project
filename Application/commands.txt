@@ -1,0 +1,2 @@
+"14:00", "start Horde-1; start Horde-2; start Horde-3; start Horde-4; start Horde-5; start Horde-6; start Alliance-1; start Alliance-2; start Alliance-3; start Alliance-4; start Alliance-5; start Alliance-6;"
+"20:59", "stop all"

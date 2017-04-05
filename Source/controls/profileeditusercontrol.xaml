@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="Alex.WoWRelogger.Controls.AccountConfigUserControl" Name="root" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:sys="clr-namespace:System;assembly=mscorlib" xmlns:Controls="clr-namespace:Alex.WoWRelogger.Controls" xmlns:Converters="clr-namespace:Alex.WoWRelogger.Converters" xmlns:HighVoltz="clr-namespace:Alex.WoWRelogger">
+  <UserControl.Resources>
+    <Converters:SpacifierConverter x:Key="SpaceConverter" />
+    <Converters:TaskIsRunningConverter x:Key="TaskIsRunningConverter" />
+  </UserControl.Resources>
+  <Grid>
+    <TabControl Name="AccountTabControl" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Padding="4" HorizontalContentAlignment="Center">
+      <TabItem Name="AcountTab" Header="Account" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" DataContext="{Binding Path=/Settings}">
+        <Border Name="GameConfigBorder" Padding="1" BorderThickness="1" BorderBrush="#FF808080" CornerRadius="1" Margin="0">
+          <ScrollViewer ScrollViewer.VerticalScrollBarVisibility="Auto" Margin="-3,3,3,10">
+            <Grid>
+              <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+              </Grid.RowDefinitions>
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="15.151" />
+                <ColumnDefinition Width="53.849" />
+                <ColumnDefinition Width="19" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="12" />
+              </Grid.ColumnDefinitions>
+              <TextBlock Text="Profile Name" HorizontalAlignment="Left" Height="20" Margin="5,0,0,1" Grid.ColumnSpan="3" />
+              <TextBox Name="ProfileNameText" Grid.Column="3" ToolTip="This can be anything, preferably something relevant and easy to remember. This will be used in log files" Text="{Binding Path=ProfileName}" />
+              <TextBlock Text="Character" Grid.Row="6" HorizontalAlignment="Left" Height="20" Margin="5,1,0,0" Grid.ColumnSpan="2" />
+              <TextBox Name="CharacterText" MaxLength="10" Grid.Column="3" Grid.Row="6" ToolTip="This is the name of your WoW Character" Text="{Binding Path=WowSettings.CharacterName}" />
+              <TextBlock Text="Server" Grid.Row="7" HorizontalAlignment="Left" Height="20" Margin="5,1,0,0" Grid.ColumnSpan="2" />
+              <TextBox Name="ServerText" Grid.Column="3" Grid.Row="7" ToolTip="Name of the server/realm that your character is located on" Text="{Binding Path=WowSettings.ServerName}" />
+              <TextBlock Text="Wow Region" Grid.Row="8" HorizontalAlignment="Left" Height="20" Margin="5,1,0,0" Grid.ColumnSpan="3" />
+              <ComboBox Name="RegionCombo" Grid.Column="3" Grid.Row="8" ToolTip="The Wow regional area" SelectionChanged="RegionCombo_SelectionChanged" />
+              <TextBlock Text="Faction" Grid.Row="9" HorizontalAlignment="Left" Height="20" Margin="5,1,0,0" Grid.ColumnSpan="3" />
+              <ComboBox Name="FactionCombo" Grid.Column="3" Grid.Row="9" ToolTip="The faction" Margin="0,2,0,20" Grid.RowSpan="2" SelectionChanged="FactionCombo_SelectionChanged" />
+              <TextBlock Text="WoW Exe Path" Grid.Row="10" HorizontalAlignment="Left" Height="20" Margin="5,1,0,0" Grid.ColumnSpan="3" />
+              <Controls:FileInputBox x:Name="WoWFileInput" FileNameChanged="WoWFileInputFileNameChanged" Grid.Row="10" Grid.Column="3" Grid.ColumnSpan="2" Title="Browse to and select your WoW.exe file" DefaultExt=".exe" Filter=".exe|*.exe" ToolTip="The path to Wow.exe. click the '...' button on the right to browse to it. This can also be a batch file that launches WoW.exe" />
+              <TextBlock Text="Params" Grid.Row="12" HorizontalAlignment="Left" Height="20" Margin="5,1,0,0" Grid.ColumnSpan="3" />
+              <TextBox Name="Params" Grid.Column="3" Grid.Row="12" ToolTip="This is the name of your WoW Character" Text="{Binding Path=WowSettings.Params}" />
+            </Grid>
+          </ScrollViewer>
+        </Border>
+      </TabItem>
+      <TabItem Header="Window" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" DataContext="{Binding Path=/Settings}">
+        <Border Padding="2" BorderThickness="1" BorderBrush="#FF808080" CornerRadius="3">
+          <ScrollViewer ScrollViewer.VerticalScrollBarVisibility="Auto">
+            <Grid>
+              <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+              </Grid.RowDefinitions>
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+              </Grid.ColumnDefinitions>
+              <TextBlock Text="WoW Window X" HorizontalAlignment="Left" Height="20" Margin="5,0,5,0" />
+              <TextBox Name="WowWindowXText" Grid.Column="1" ToolTip="The X screen location where you want the Wow window placed (optional)" Text="{Binding Path=WowSettings.WowWindowX}" />
+              <TextBlock Text="WoW Window Y" Grid.Row="1" HorizontalAlignment="Left" Height="20" Margin="5,0,5,0" />
+              <TextBox Name="WowWindowYText" Grid.Column="1" Grid.Row="1" ToolTip="The Y screen location where you want the Wow window placed (optional)" Text="{Binding Path=WowSettings.WowWindowY}" />
+              <TextBlock Text="WoW Window Width" Grid.Row="2" HorizontalAlignment="Left" Height="20" Margin="5,0,5,0" />
+              <TextBox Name="WowWindowWidthText" Grid.Column="1" Grid.Row="2" ToolTip="The Wow window Width (optional)" Text="{Binding Path=WowSettings.WowWindowWidth}" />
+              <TextBlock Text="WoW Window Height" Grid.Row="3" HorizontalAlignment="Left" Height="20" Margin="5,0,5,0" />
+              <TextBox Name="WowWindowHeightText" Grid.Column="1" Grid.Row="3" ToolTip="The Wow window Height (optional)" Text="{Binding Path=WowSettings.WowWindowHeight}" />
+              <TextBlock Text="Grab window size/location" Grid.Row="4" HorizontalAlignment="Left" Height="20" Margin="5,0,5,0" />
+              <Button Name="WowWindowGrabText" Content="Grab" Grid.Column="1" Grid.Row="4" ToolTip="Grabs the Wow window size and location, requires wow to be running" Click="WowWindowGrabTextClick" />
+              <StackPanel Grid.Row="5" Orientation="Horizontal" ToolTip="Automatically re-sizes the Wow window to the entered ratio of the monitor that its on">
+                <TextBlock Text="Resize to 1/" HorizontalAlignment="Left" Height="20" Margin="5,0,5,0" />
+                <TextBox Name="WowWindowRatioText" Text="3" />
+                <TextBlock Text="ratio of screen" HorizontalAlignment="Left" Height="20" Margin="5,0,5,0" />
+              </StackPanel>
+              <Button Name="WowWindowRatioButton" Grid.Row="5" Grid.Column="1" Content="Resize" ToolTip="Automatically re-sizes the Wow window to the entered ratio of the monitor that its on" Click="WowWindowRatioButtonClick" />
+            </Grid>
+          </ScrollViewer>
+        </Border>
+      </TabItem>
+    </TabControl>
+  </Grid>
+</UserControl>

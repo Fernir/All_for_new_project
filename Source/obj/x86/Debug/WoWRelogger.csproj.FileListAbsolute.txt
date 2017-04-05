@@ -1,0 +1,66 @@
+C:\Projects\бот игры\justdec\bin\Debug\WoWRelogger.exe.config
+C:\Projects\бот игры\justdec\bin\Debug\WoWRelogger.exe
+C:\Projects\бот игры\justdec\bin\Debug\WoWRelogger.pdb
+C:\Projects\бот игры\justdec\bin\Debug\fasmdll_managed.dll
+C:\Projects\бот игры\justdec\bin\Debug\GreyMagic.dll
+C:\Projects\бот игры\justdec\bin\Debug\Newtonsoft.Json.dll
+C:\Projects\бот игры\justdec\bin\Debug\nManager.dll
+C:\Projects\бот игры\justdec\bin\Debug\xNet.dll
+C:\Projects\бот игры\justdec\obj\x86\Debug\Controls\OptionsUserControl.baml
+C:\Projects\бот игры\justdec\obj\x86\Debug\MainWindow.g.cs
+C:\Projects\бот игры\justdec\obj\x86\Debug\Controls\OptionsUserControl.g.cs
+C:\Projects\бот игры\justdec\obj\x86\Debug\controls\profileeditusercontrol.g.cs
+C:\Projects\бот игры\justdec\obj\x86\Debug\Controls\FileInputBox.g.cs
+C:\Projects\бот игры\justdec\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Projects\бот игры\justdec\obj\x86\Debug\WoWRelogger_MarkupCompile.cache
+C:\Projects\бот игры\justdec\obj\x86\Debug\WoWRelogger_MarkupCompile.lref
+C:\Projects\бот игры\justdec\obj\x86\Debug\MainWindow.baml
+C:\Projects\бот игры\justdec\obj\x86\Debug\controls\profileeditusercontrol.baml
+C:\Projects\бот игры\justdec\obj\x86\Debug\Controls\FileInputBox.baml
+C:\Projects\бот игры\justdec\obj\x86\Debug\WoWRelogger.g.resources
+C:\Projects\бот игры\justdec\obj\x86\Debug\WoWRelogger.exe
+C:\Projects\бот игры\justdec\obj\x86\Debug\WoWRelogger.pdb
+C:\Projects\бот игры\WoWRelogger\bin\Debug\WoWRelogger.exe.config
+C:\Projects\бот игры\WoWRelogger\obj\x86\Debug\WoWRelogger.exe
+C:\Projects\бот игры\WoWRelogger\obj\x86\Debug\WoWRelogger.pdb
+C:\Projects\бот игры\WoWRelogger\bin\Debug\WoWRelogger.exe
+C:\Projects\бот игры\WoWRelogger\bin\Debug\WoWRelogger.pdb
+C:\Projects\бот игры\WoWRelogger\bin\Debug\fasmdll_managed.dll
+C:\Projects\бот игры\WoWRelogger\bin\Debug\GreyMagic.dll
+C:\Projects\бот игры\WoWRelogger\bin\Debug\Newtonsoft.Json.dll
+C:\Projects\бот игры\WoWRelogger\bin\Debug\xNet.dll
+C:\Projects\бот игры\WoWRelogger\obj\x86\Debug\Controls\OptionsUserControl.baml
+C:\Projects\бот игры\WoWRelogger\obj\x86\Debug\MainWindow.g.cs
+C:\Projects\бот игры\WoWRelogger\obj\x86\Debug\Controls\OptionsUserControl.g.cs
+C:\Projects\бот игры\WoWRelogger\obj\x86\Debug\controls\profileeditusercontrol.g.cs
+C:\Projects\бот игры\WoWRelogger\obj\x86\Debug\Controls\FileInputBox.g.cs
+C:\Projects\бот игры\WoWRelogger\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Projects\бот игры\WoWRelogger\obj\x86\Debug\WoWRelogger_MarkupCompile.cache
+C:\Projects\бот игры\WoWRelogger\obj\x86\Debug\WoWRelogger_MarkupCompile.lref
+C:\Projects\бот игры\WoWRelogger\obj\x86\Debug\MainWindow.baml
+C:\Projects\бот игры\WoWRelogger\obj\x86\Debug\controls\profileeditusercontrol.baml
+C:\Projects\бот игры\WoWRelogger\obj\x86\Debug\Controls\FileInputBox.baml
+C:\Projects\бот игры\WoWRelogger\obj\x86\Debug\WoWRelogger.g.resources
+C:\Projects\бот игры\WoWRelogger\obj\x86\Debug\WoWRelogger.csprojResolveAssemblyReference.cache
+d:\BadBoy\All_for_new_project\Source\bin\Debug\WoWRelogger.exe.config
+d:\BadBoy\All_for_new_project\Source\obj\x86\Debug\WoWRelogger.exe
+d:\BadBoy\All_for_new_project\Source\obj\x86\Debug\WoWRelogger.pdb
+d:\BadBoy\All_for_new_project\Source\bin\Debug\WoWRelogger.exe
+d:\BadBoy\All_for_new_project\Source\bin\Debug\WoWRelogger.pdb
+d:\BadBoy\All_for_new_project\Source\bin\Debug\fasmdll_managed.dll
+d:\BadBoy\All_for_new_project\Source\bin\Debug\GreyMagic.dll
+d:\BadBoy\All_for_new_project\Source\bin\Debug\Newtonsoft.Json.dll
+d:\BadBoy\All_for_new_project\Source\bin\Debug\xNet.dll
+d:\BadBoy\All_for_new_project\Source\obj\x86\Debug\WoWRelogger.csprojResolveAssemblyReference.cache
+d:\BadBoy\All_for_new_project\Source\obj\x86\Debug\Controls\OptionsUserControl.baml
+d:\BadBoy\All_for_new_project\Source\obj\x86\Debug\MainWindow.g.cs
+d:\BadBoy\All_for_new_project\Source\obj\x86\Debug\Controls\OptionsUserControl.g.cs
+d:\BadBoy\All_for_new_project\Source\obj\x86\Debug\controls\profileeditusercontrol.g.cs
+d:\BadBoy\All_for_new_project\Source\obj\x86\Debug\Controls\FileInputBox.g.cs
+d:\BadBoy\All_for_new_project\Source\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+d:\BadBoy\All_for_new_project\Source\obj\x86\Debug\WoWRelogger_MarkupCompile.cache
+d:\BadBoy\All_for_new_project\Source\obj\x86\Debug\WoWRelogger_MarkupCompile.lref
+d:\BadBoy\All_for_new_project\Source\obj\x86\Debug\MainWindow.baml
+d:\BadBoy\All_for_new_project\Source\obj\x86\Debug\controls\profileeditusercontrol.baml
+d:\BadBoy\All_for_new_project\Source\obj\x86\Debug\Controls\FileInputBox.baml
+d:\BadBoy\All_for_new_project\Source\obj\x86\Debug\WoWRelogger.g.resources

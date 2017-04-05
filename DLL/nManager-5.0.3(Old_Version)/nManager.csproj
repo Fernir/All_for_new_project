@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>ac59ede7-2430-429d-b84d-698a59b26f1f</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>nManager</AssemblyName>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="SlimDX" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="RecastLayer" />
+    <Reference Include="fasmdll_managed" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Management" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="nManager\FiniteStateMachine\Engine.cs" />
+    <Compile Include="nManager\FiniteStateMachine\State.cs" />
+    <Compile Include="nManager\Helpful\Communication.cs" />
+    <Compile Include="nManager\Helpful\Display.cs" />
+    <Compile Include="nManager\Helpful\Forms\DeveloperToolsMainFrame.cs" />
+    <Compile Include="nManager\Helpful\Forms\ErrorPopup.cs" />
+    <Compile Include="nManager\Helpful\Forms\GeneralSettings.cs" />
+    <Compile Include="nManager\Helpful\Forms\TranslationManagementMainFrame.cs" />
+    <Compile Include="nManager\Helpful\Forms\UserControls\LoggingUC.cs" />
+    <Compile Include="nManager\Helpful\Forms\UserControls\LoggingSchedulerUC.cs" />
+    <Compile Include="nManager\Helpful\Forms\UserControls\TnbButton.cs" />
+    <Compile Include="nManager\Helpful\Forms\UserControls\TnbComboBox.cs" />
+    <Compile Include="nManager\Helpful\Forms\UserControls\TnbControlMenu.cs" />
+    <Compile Include="nManager\Helpful\Forms\UserControls\TnbExpendablePanel.cs" />
+    <Compile Include="nManager\Helpful\Forms\UserControls\TnbProgressBar.cs" />
+    <Compile Include="nManager\Helpful\Forms\UserControls\TnbRibbonManager.cs" />
+    <Compile Include="nManager\Helpful\Forms\UserControls\TnbSwitchButton.cs" />
+    <Compile Include="nManager\Helpful\Garrison.cs" />
+    <Compile Include="nManager\Helpful\GZip.cs" />
+    <Compile Include="nManager\Helpful\IniFile.cs" />
+    <Compile Include="nManager\Helpful\Interface\IScriptOnlineManager.cs" />
+    <Compile Include="nManager\Helpful\Keyboard.cs" />
+    <Compile Include="nManager\Helpful\KeyboardHook.cs" />
+    <Compile Include="nManager\Helpful\Logging.cs" />
+    <Compile Include="nManager\Helpful\Math.cs" />
+    <Compile Include="nManager\Helpful\Mouse.cs" />
+    <Compile Include="nManager\Helpful\Direct3DCapture.cs" />
+    <Compile Include="nManager\Helpful\RECT.cs" />
+    <Compile Include="nManager\Helpful\NativeMethods.cs" />
+    <Compile Include="nManager\Helpful\PostFile.cs" />
+    <Compile Include="nManager\Helpful\Settings.cs" />
+    <Compile Include="nManager\Helpful\Timer.cs" />
+    <Compile Include="nManager\Helpful\Others.cs" />
+    <Compile Include="nManager\Helpful\Win32\Native.cs" />
+    <Compile Include="nManager\Helpful\Win32\UnreservedVK.cs" />
+    <Compile Include="nManager\Helpful\Win32\VK.cs" />
+    <Compile Include="nManager\Helpful\XmlSerializer.cs" />
+    <Compile Include="nManager\Information.cs" />
+    <Compile Include="nManager\nManagerSetting.cs" />
+    <Compile Include="nManager\Plugins\IPlugins.cs" />
+    <Compile Include="nManager\Plugins\Plugins.cs" />
+    <Compile Include="nManager\Plugins\Plugin.cs" />
+    <Compile Include="nManager\Products\IProduct.cs" />
+    <Compile Include="nManager\Products\Products.cs" />
+    <Compile Include="nManager\Properties\Resources.cs" />
+    <Compile Include="nManager\Pulsator.cs" />
+    <Compile Include="nManager\Statistics.cs" />
+    <Compile Include="nManager\Translate.cs" />
+    <Compile Include="nManager\Wow\Bot\States\ArchaeologyStates.cs" />
+    <Compile Include="nManager\Wow\Bot\States\Battlegrounding.cs" />
+    <Compile Include="nManager\Wow\Bot\States\DungeonFarming.cs" />
+    <Compile Include="nManager\Wow\Bot\States\FightHostileTarget.cs" />
+    <Compile Include="nManager\Wow\Bot\States\Farming.cs" />
+    <Compile Include="nManager\Wow\Bot\States\FightHostileTargetDamageDealerOnly.cs" />
+    <Compile Include="nManager\Wow\Bot\States\GarrisonState.cs" />
+    <Compile Include="nManager\Wow\Bot\States\Grinding.cs" />
+    <Compile Include="nManager\Wow\Bot\States\HealFriendlyTarget.cs" />
+    <Compile Include="nManager\Wow\Bot\States\Idle.cs" />
+    <Compile Include="nManager\Wow\Bot\States\IsAttacked.cs" />
+    <Compile Include="nManager\Wow\Bot\States\Looting.cs" />
+    <Compile Include="nManager\Wow\Bot\States\MillingState.cs" />
+    <Compile Include="nManager\Wow\Bot\States\MovementLoop.cs" />
+    <Compile Include="nManager\Wow\Bot\States\PositionTrackingSystem.cs" />
+    <Compile Include="nManager\Wow\Bot\States\SpecializationCheck.cs" />
+    <Compile Include="nManager\Wow\Bot\States\Travel.cs" />
+    <Compile Include="nManager\Wow\Class\Auras.cs" />
+    <Compile Include="nManager\Wow\Class\DB2Struct.cs" />
+    <Compile Include="nManager\Wow\Class\GathererProfile.cs" />
+    <Compile Include="nManager\Wow\Class\GathererBlackListRadius.cs" />
+    <Compile Include="nManager\Wow\Class\Instance.cs" />
+    <Compile Include="nManager\Wow\Class\Int128.cs" />
+    <Compile Include="nManager\Wow\Class\Matrix4.cs" />
+    <Compile Include="nManager\Wow\Class\Quaternion.cs" />
+    <Compile Include="nManager\Wow\Class\UInt128.cs" />
+    <Compile Include="nManager\Wow\Class\Vector3.cs" />
+    <Compile Include="nManager\Wow\Enums\GuidType.cs" />
+    <Compile Include="nManager\Wow\Enums\GuidSubType.cs" />
+    <Compile Include="nManager\Wow\Enums\InstanceType.cs" />
+    <Compile Include="nManager\Wow\Enums\MovementFlags.cs" />
+    <Compile Include="nManager\Wow\Enums\WoWEventsType.cs" />
+    <Compile Include="nManager\Wow\Enums\WoWGender.cs" />
+    <Compile Include="nManager\Wow\Enums\WoWSpecialization.cs" />
+    <Compile Include="nManager\Wow\Enums\WoWStatistic.cs" />
+    <Compile Include="nManager\Wow\Enums\UnitFlags.cs" />
+    <Compile Include="nManager\Wow\Enums\UnitFlags2.cs" />
+    <Compile Include="nManager\Wow\Enums\UnitNPCFlags.cs" />
+    <Compile Include="nManager\Wow\Enums\UnitDynamicFlags.cs" />
+    <Compile Include="nManager\Wow\Enums\UnitAuraFlags.cs" />
+    <Compile Include="nManager\Wow\Enums\UnitQuestGiverStatus.cs" />
+    <Compile Include="nManager\Wow\Enums\BagType.cs" />
+    <Compile Include="nManager\Wow\Enums\TypeFlag.cs" />
+    <Compile Include="nManager\Wow\Helpers\DB2!1.cs" />
+    <Compile Include="nManager\Wow\Helpers\Portals.cs" />
+    <Compile Include="nManager\Wow\Helpers\Transport.cs" />
+    <Compile Include="nManager\Wow\Helpers\Portal.cs" />
+    <Compile Include="nManager\Wow\Helpers\Taxi.cs" />
+    <Compile Include="nManager\Wow\Helpers\TaxiLink.cs" />
+    <Compile Include="nManager\Wow\Helpers\Transports.cs" />
+    <Compile Include="nManager\Wow\Helpers\EventsListener.cs" />
+    <Compile Include="nManager\Wow\Helpers\MimesisHelpers.cs" />
+    <Compile Include="nManager\Wow\Helpers\QuestersDB.cs" />
+    <Compile Include="nManager\Wow\Helpers\WoWItemSubClass.cs" />
+    <Compile Include="nManager\Wow\Helpers\WoWItemClass.cs" />
+    <Compile Include="nManager\Wow\Helpers\MovementsAction.cs" />
+    <Compile Include="nManager\Wow\Bot\States\Pause.cs" />
+    <Compile Include="nManager\Wow\Bot\States\ProspectingState.cs" />
+    <Compile Include="nManager\Wow\Bot\States\Regeneration.cs" />
+    <Compile Include="nManager\Wow\Bot\States\Relogger.cs" />
+    <Compile Include="nManager\Wow\Bot\States\Resurrect.cs" />
+    <Compile Include="nManager\Wow\Bot\States\SmeltingState.cs" />
+    <Compile Include="nManager\Wow\Bot\States\StopBotIf.cs" />
+    <Compile Include="nManager\Wow\Bot\States\LevelupCheck.cs" />
+    <Compile Include="nManager\Wow\Bot\States\ToTown.cs" />
+    <Compile Include="nManager\Wow\Bot\States\Trainers.cs" />
+    <Compile Include="nManager\Wow\Bot\Tasks\FarmingTask.cs" />
+    <Compile Include="nManager\Wow\Bot\Tasks\FishingTask.cs" />
+    <Compile Include="nManager\Wow\Bot\Tasks\LootingTask.cs" />
+    <Compile Include="nManager\Wow\Bot\Tasks\MountCapacity.cs" />
+    <Compile Include="nManager\Wow\Bot\Tasks\MountTask.cs" />
+    <Compile Include="nManager\Wow\Class\DBCStruct.cs" />
+    <Compile Include="nManager\Wow\Class\Digsite.cs" />
+    <Compile Include="nManager\Wow\Class\ItemInfo.cs" />
+    <Compile Include="nManager\Wow\Class\Node.cs" />
+    <Compile Include="nManager\Wow\Class\Npc.cs" />
+    <Compile Include="nManager\Wow\Class\Point.cs" />
+    <Compile Include="nManager\Wow\Class\Spell.cs" />
+    <Compile Include="nManager\Wow\Class\SpellList.cs" />
+    <Compile Include="nManager\Wow\Enums\PartyEnums.cs" />
+    <Compile Include="nManager\Wow\Enums\WoWGameObjectLockKeyType.cs" />
+    <Compile Include="nManager\Wow\Enums\WoWGameObjectLockType.cs" />
+    <Compile Include="nManager\Wow\Enums\WoWGameObjectType.cs" />
+    <Compile Include="nManager\Wow\Enums\PowerType.cs" />
+    <Compile Include="nManager\Wow\Enums\WoWRace.cs" />
+    <Compile Include="nManager\Wow\Helpers\Archaeology.cs" />
+    <Compile Include="nManager\Wow\Helpers\Bag.cs" />
+    <Compile Include="nManager\Wow\Helpers\Battleground.cs" />
+    <Compile Include="nManager\Wow\Helpers\BuffManager.cs" />
+    <Compile Include="nManager\Wow\Helpers\CGUnit_C__GetFacing.cs" />
+    <Compile Include="nManager\Wow\Helpers\Chat.cs" />
+    <Compile Include="nManager\Wow\Helpers\Channel.cs" />
+    <Compile Include="nManager\Wow\Helpers\ClickOnTerrain.cs" />
+    <Compile Include="nManager\Wow\Helpers\ClickToMove.cs" />
+    <Compile Include="nManager\Wow\Helpers\ConfigWowForThisBot.cs" />
+    <Compile Include="nManager\Wow\Helpers\CustomProfile.cs" />
+    <Compile Include="nManager\Wow\Helpers\ICustomProfile.cs" />
+    <Compile Include="nManager\Wow\Helpers\CombatClass.cs" />
+    <Compile Include="nManager\Wow\Helpers\ICombatClass.cs" />
+    <Compile Include="nManager\Wow\Enums\BattlegroundId.cs" />
+    <Compile Include="nManager\Wow\Enums\CGWorldFrameHitFlags.cs" />
+    <Compile Include="nManager\Wow\Enums\ClickToMoveType.cs" />
+    <Compile Include="nManager\Wow\Enums\ContinentId.cs" />
+    <Compile Include="nManager\Wow\Enums\InventorySlot.cs" />
+    <Compile Include="nManager\Wow\Enums\InventoryType.cs" />
+    <Compile Include="nManager\Wow\Enums\Keybindings.cs" />
+    <Compile Include="nManager\Wow\Enums\PlayerFactions.cs" />
+    <Compile Include="nManager\Wow\Enums\Reaction.cs" />
+    <Compile Include="nManager\Wow\Enums\SkillRank.cs" />
+    <Compile Include="nManager\Wow\Enums\SkillLine.cs" />
+    <Compile Include="nManager\Wow\Enums\TrackCreatureFlags.cs" />
+    <Compile Include="nManager\Wow\Enums\TrackObjectFlags.cs" />
+    <Compile Include="nManager\Wow\Enums\WoWClass.cs" />
+    <Compile Include="nManager\Wow\Enums\WoWClassMask.cs" />
+    <Compile Include="nManager\Wow\Enums\WoWInventorySlot.cs" />
+    <Compile Include="nManager\Wow\Enums\WoWItemClass.cs" />
+    <Compile Include="nManager\Wow\Enums\WowItemSubClassWeapon.cs" />
+    <Compile Include="nManager\Wow\Enums\WowItemSubClassArmor.cs" />
+    <Compile Include="nManager\Wow\Enums\WoWItemQuality.cs" />
+    <Compile Include="nManager\Wow\Enums\WoWItemTradeGoodsClass.cs" />
+    <Compile Include="nManager\Wow\Enums\WoWObjectType.cs" />
+    <Compile Include="nManager\Wow\Helpers\DBC!1.cs" />
+    <Compile Include="nManager\Wow\Helpers\Fishing.cs" />
+    <Compile Include="nManager\Wow\Helpers\Heal.cs" />
+    <Compile Include="nManager\Wow\Helpers\HealerClass.cs" />
+    <Compile Include="nManager\Wow\Helpers\IHealerClass.cs" />
+    <Compile Include="nManager\Wow\Helpers\Milling.cs" />
+    <Compile Include="nManager\Wow\Helpers\NpcDB.cs" />
+    <Compile Include="nManager\Wow\Helpers\Elemental.cs" />
+    <Compile Include="nManager\Wow\Helpers\EquippedItems.cs" />
+    <Compile Include="nManager\Wow\Helpers\Fight.cs" />
+    <Compile Include="nManager\Wow\Helpers\Interact.cs" />
+    <Compile Include="nManager\Wow\Helpers\ItemsManager.cs" />
+    <Compile Include="nManager\Wow\Helpers\ItemSelection.cs" />
+    <Compile Include="nManager\Wow\Helpers\Keybindings.cs" />
+    <Compile Include="nManager\Wow\Helpers\Login.cs" />
+    <Compile Include="nManager\Wow\Helpers\LongMove.cs" />
+    <Compile Include="nManager\Wow\Helpers\Lua.cs" />
+    <Compile Include="nManager\Wow\Helpers\Mail.cs" />
+    <Compile Include="nManager\Wow\Helpers\MovementManager.cs" />
+    <Compile Include="nManager\Wow\Helpers\Party.cs" />
+    <Compile Include="nManager\Wow\Helpers\PathFinder.cs" />
+    <Compile Include="nManager\Wow\Helpers\PathFinderClass\HopType.cs" />
+    <Compile Include="nManager\Wow\Helpers\PathFinderClass\Hop.cs" />
+    <Compile Include="nManager\Wow\Helpers\PathFinderClass\Danger.cs" />
+    <Compile Include="nManager\Wow\Helpers\PathFinderClass\NavMeshException.cs" />
+    <Compile Include="nManager\Wow\Helpers\PathFinderClass\ConnectionData.cs" />
+    <Compile Include="nManager\Wow\Helpers\PathFinderClass\Pather.cs" />
+    <Compile Include="nManager\Wow\Helpers\PathFinderClass\Utility.cs" />
+    <Compile Include="nManager\Wow\Helpers\Prospecting.cs" />
+    <Compile Include="nManager\Wow\Helpers\Quest.cs" />
+    <Compile Include="nManager\Wow\Helpers\Skill.cs" />
+    <Compile Include="nManager\Wow\Helpers\Smelting.cs" />
+    <Compile Include="nManager\Wow\Helpers\SpellManager.cs" />
+    <Compile Include="nManager\Wow\Helpers\Talent.cs" />
+    <Compile Include="nManager\Wow\Helpers\TraceLine.cs" />
+    <Compile Include="nManager\Wow\Helpers\Tracker.cs" />
+    <Compile Include="nManager\Wow\Helpers\Gossip.cs" />
+    <Compile Include="nManager\Wow\Helpers\UnitRelation.cs" />
+    <Compile Include="nManager\Wow\Helpers\Usefuls.cs" />
+    <Compile Include="nManager\Wow\Helpers\Vendor.cs" />
+    <Compile Include="nManager\Wow\Helpers\WoWFactionTemplate.cs" />
+    <Compile Include="nManager\Wow\Helpers\WoWLock.cs" />
+    <Compile Include="nManager\Wow\Helpers\WoWMap.cs" />
+    <Compile Include="nManager\Wow\Helpers\WoWQuestPOIPoint.cs" />
+    <Compile Include="nManager\Wow\Helpers\WoWResearchSite.cs" />
+    <Compile Include="nManager\Wow\Helpers\WoWSpellCategories.cs" />
+    <Compile Include="nManager\Wow\Memory.cs" />
+    <Compile Include="nManager\Wow\MemoryClass\D3D.cs" />
+    <Compile Include="nManager\Wow\MemoryClass\Dictionnary!1.cs" />
+    <Compile Include="nManager\Wow\MemoryClass\Hook.cs" />
+    <Compile Include="nManager\Wow\MemoryClass\Magic\BlackMagic.cs" />
+    <Compile Include="nManager\Wow\MemoryClass\Magic\SInject.cs" />
+    <Compile Include="nManager\Wow\MemoryClass\Magic\SMemory.cs" />
+    <Compile Include="nManager\Wow\MemoryClass\Magic\SPattern.cs" />
+    <Compile Include="nManager\Wow\MemoryClass\Magic\SProcess.cs" />
+    <Compile Include="nManager\Wow\MemoryClass\Magic\SThread.cs" />
+    <Compile Include="nManager\Wow\MemoryClass\Magic\SWindow.cs" />
+    <Compile Include="nManager\Wow\MemoryClass\Magic\AccessRights.cs" />
+    <Compile Include="nManager\Wow\MemoryClass\Magic\MemoryAllocType.cs" />
+    <Compile Include="nManager\Wow\MemoryClass\Magic\MemoryProtectType.cs" />
+    <Compile Include="nManager\Wow\MemoryClass\Magic\MemoryFreeType.cs" />
+    <Compile Include="nManager\Wow\MemoryClass\Magic\ThreadFlags.cs" />
+    <Compile Include="nManager\Wow\MemoryClass\Magic\WaitValues.cs" />
+    <Compile Include="nManager\Wow\MemoryClass\Magic\CONTEXT_FLAGS.cs" />
+    <Compile Include="nManager\Wow\MemoryClass\Magic\FLOATING_SAVE_AREA.cs" />
+    <Compile Include="nManager\Wow\MemoryClass\Magic\CONTEXT.cs" />
+    <Compile Include="nManager\Wow\MemoryClass\Magic\Imports.cs" />
+    <Compile Include="nManager\Wow\MemoryClass\Process.cs" />
+    <Compile Include="nManager\Wow\MemoryClass\Usefuls.cs" />
+    <Compile Include="nManager\Wow\ObjectManager\ObjectManager.cs" />
+    <Compile Include="nManager\Wow\ObjectManager\Pulsator.cs" />
+    <Compile Include="nManager\Wow\ObjectManager\WoWObject.cs" />
+    <Compile Include="nManager\Wow\ObjectManager\WoWItem.cs" />
+    <Compile Include="nManager\Wow\ObjectManager\WoWContainer.cs" />
+    <Compile Include="nManager\Wow\ObjectManager\WoWCorpse.cs" />
+    <Compile Include="nManager\Wow\ObjectManager\WoWGameObject.cs" />
+    <Compile Include="nManager\Wow\ObjectManager\WoWUnit.cs" />
+    <Compile Include="nManager\Wow\ObjectManager\WoWPlayer.cs" />
+    <Compile Include="nManager\Wow\Patchables\Addresses.cs" />
+    <Compile Include="nManager\Wow\Patchables\Descriptors.cs" />
+    <Compile Include="nManager\Wow\Helpers\EquipmentAndStats.cs" />
+    <Compile Include="ConfusedByAttribute.cs" />
+    <EmbeddedResource Include="nManager.Helpful.Forms.DeveloperToolsMainFrame.resources" />
+    <EmbeddedResource Include="nManager.Helpful.Forms.ErrorPopup.resources" />
+    <EmbeddedResource Include="nManager.Helpful.Forms.GeneralSettings.resources" />
+    <EmbeddedResource Include="nManager.Helpful.Forms.TranslationManagementMainFrame.resources" />
+    <EmbeddedResource Include="nManager.Helpful.Forms.UserControls.LoggingUC.resources" />
+    <EmbeddedResource Include="nManager.Helpful.Forms.UserControls.LoggingSchedulerUC.resources" />
+    <EmbeddedResource Include="nManager.Properties.Resources.resources" />
+  </ItemGroup>
+</Project>

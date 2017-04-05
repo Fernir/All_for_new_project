@@ -1,0 +1,31 @@
+﻿namespace nManager.Wow.Enums
+{
+    using System;
+
+    public enum WoWGameObjectLockType
+    {
+        LOCKTYPE_ARM_TRAP = 9,
+        LOCKTYPE_BLASTING = 0x10,
+        LOCKTYPE_CALCIFIED_ELVEN_GEMS = 7,
+        LOCKTYPE_CLOSE = 8,
+        LOCKTYPE_DISARM_TRAP = 4,
+        LOCKTYPE_FISHING = 0x13,
+        LOCKTYPE_GAHZRIDIAN = 15,
+        LOCKTYPE_HERBALISM = 2,
+        LOCKTYPE_INSCRIPTION = 20,
+        LOCKTYPE_MINING = 3,
+        LOCKTYPE_OPEN = 5,
+        LOCKTYPE_OPEN_ATTACKING = 14,
+        LOCKTYPE_OPEN_FROM_VEHICLE = 0x15,
+        LOCKTYPE_OPEN_KNEELING = 13,
+        LOCKTYPE_OPEN_TINKERING = 12,
+        LOCKTYPE_PICKLOCK = 1,
+        LOCKTYPE_QUICK_CLOSE = 11,
+        LOCKTYPE_QUICK_OPEN = 10,
+        LOCKTYPE_SAW_TREE = 0x1c,
+        LOCKTYPE_SLOW_CLOSE = 0x12,
+        LOCKTYPE_SLOW_OPEN = 0x11,
+        LOCKTYPE_TREASURE = 6
+    }
+}
+

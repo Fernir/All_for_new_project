@@ -1,0 +1,23 @@
+[04/05/2017 21:37:40] Command "14:00", "start Horde-1; start Horde-2; start Horde-3; start Horde-4; start Horde-5; start Horde-6; start Alliance-1; start Alliance-2; start Alliance-3; start Alliance-4; start Alliance-5; start Alliance-6;" is loaded
+[04/05/2017 21:37:40] Command "20:59", "stop all" is loaded
+[04/05/2017 21:37:40] File commands.txt not found!
+[04/05/2017 21:37:41] WoWRelogger Version 1.1.0
+[04/05/2017 21:37:41] ******* Settings ******** 
+[04/05/2017 21:37:41] 	Auto AcceptTosEula:            False
+[04/05/2017 21:37:41] 	Allow Trials:                  True
+[04/05/2017 21:37:41] 	Auto Update HB:                True
+[04/05/2017 21:37:41] 	Check Hb's Responsiveness:     True
+[04/05/2017 21:37:41] 	Check Realm Status:            False
+[04/05/2017 21:37:41] 	HB Delay:                      3
+[04/05/2017 21:37:41] 	Login Delay:                   0
+[04/05/2017 21:37:41] 	Minimize Hb On Startup:        False
+[04/05/2017 21:37:41] 	Set GameWindow Title:          False
+[04/05/2017 21:37:41] 	Wow Start Delay:               0
+[04/05/2017 21:37:41] <?xml version="1.0"?><w3s.response><reqn>170405183741096</reqn><purses cnt="1" wmid="453469068675">
+<purse id="62849707"><pursename>R113034860117</pursename><amount>238.29</amount><desc>For WoW accounts</desc></purse>
+</purses>
+<retval>0</retval>
+<retdesc> wmid:453469068675</retdesc>
+</w3s.response>
+
+[04/05/2017 21:37:43] Killing Wow process

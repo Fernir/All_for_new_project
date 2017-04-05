@@ -1,0 +1,5 @@
+fasmdll_managed.dll для использования ассемблер кода
+GreyMagic.dll читать данные из игры
+nManager.dll выполнять LUA функции в игре
+xNet.dll прокси для программы
+ProxyDll.dll прокси для игры

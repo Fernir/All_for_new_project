@@ -1,0 +1,15 @@
+[04/05/2017 21:37:11] Command "14:00", "start Horde-1; start Horde-2; start Horde-3; start Horde-4; start Horde-5; start Horde-6; start Alliance-1; start Alliance-2; start Alliance-3; start Alliance-4; start Alliance-5; start Alliance-6;" is loaded
+[04/05/2017 21:37:11] Command "20:59", "stop all" is loaded
+[04/05/2017 21:37:11] File commands.txt not found!
+[04/05/2017 21:37:11] WoWRelogger Version 1.1.0
+[04/05/2017 21:37:12] ******* Settings ******** 
+[04/05/2017 21:37:12] 	Auto AcceptTosEula:            False
+[04/05/2017 21:37:12] 	Allow Trials:                  True
+[04/05/2017 21:37:12] 	Auto Update HB:                True
+[04/05/2017 21:37:12] 	Check Hb's Responsiveness:     True
+[04/05/2017 21:37:12] 	Check Realm Status:            False
+[04/05/2017 21:37:12] 	HB Delay:                      3
+[04/05/2017 21:37:12] 	Login Delay:                   0
+[04/05/2017 21:37:12] 	Minimize Hb On Startup:        False
+[04/05/2017 21:37:12] 	Set GameWindow Title:          False
+[04/05/2017 21:37:12] 	Wow Start Delay:               0
