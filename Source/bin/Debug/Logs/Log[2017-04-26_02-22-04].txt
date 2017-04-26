@@ -1,0 +1,25 @@
+[04/26/2017 14:22:04] Command "14:00", "start Horde-1; start Horde-2; start Horde-3; start Horde-4; start Horde-5; start Horde-6; start Alliance-1; start Alliance-2; start Alliance-3; start Alliance-4; start Alliance-5; start Alliance-6;" is loaded
+[04/26/2017 14:22:04] Command "20:59", "stop all" is loaded
+[04/26/2017 14:22:04] File commands.txt not found!
+[04/26/2017 14:22:04] WoWRelogger Version 1.1.0
+[04/26/2017 14:22:04] ******* Settings ******** 
+[04/26/2017 14:22:04] 	Auto AcceptTosEula:            False
+[04/26/2017 14:22:04] 	Allow Trials:                  True
+[04/26/2017 14:22:04] 	Auto Update HB:                True
+[04/26/2017 14:22:04] 	Check Hb's Responsiveness:     True
+[04/26/2017 14:22:04] 	Check Realm Status:            False
+[04/26/2017 14:22:04] 	HB Delay:                      3
+[04/26/2017 14:22:04] 	Login Delay:                   0
+[04/26/2017 14:22:04] 	Minimize Hb On Startup:        False
+[04/26/2017 14:22:04] 	Set GameWindow Title:          False
+[04/26/2017 14:22:04] 	Wow Start Delay:               0
+[04/26/2017 14:22:07] test: Running state: StartWowState
+[04/26/2017 14:22:07] test: Starting D:\Games\wow\Wow.exe
+[04/26/2017 14:22:07] test: Waiting for Wow to start
+[04/26/2017 14:22:07] test: Using proxy: 193.169.87.38:1080
+[04/26/2017 14:22:10] test: Wow is ready to login.
+[04/26/2017 14:22:10] test: Exit WowLockToken:StartWoW()
+[04/26/2017 14:22:11] test: Lua state is not initialized
+[04/26/2017 14:22:11] test: Running state: WowWindowPlacementState
+[04/26/2017 14:22:12] test: Running state: LoginWowState
+[04/26/2017 14:22:27] Killing Wow process

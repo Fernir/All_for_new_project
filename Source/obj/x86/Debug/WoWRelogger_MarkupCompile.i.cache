@@ -4,7 +4,7 @@
 winexe
 C#
 .cs
-d:\BadBoy\All_for_new_project\Source\obj\x86\Debug\
+D:\BadBoy\All_for_new_project\Source\obj\x86\Debug\
 
 none
 false
@@ -13,7 +13,7 @@ DEBUG;TRACE
 4979682324
 
 105-999869307
-19-589558947
+19-1732147771
 MainWindow.xaml;Controls\OptionsUserControl.xaml;controls\profileeditusercontrol.xaml;Controls\FileInputBox.xaml;
 
 True

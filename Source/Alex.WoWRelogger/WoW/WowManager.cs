@@ -164,7 +164,7 @@ namespace Alex.WoWRelogger.WoW
 				try
 				{
 					int num1 = 0;
-					NativeMethods.ReadProcessMemory((int)this.GameProcess.Handle, (int)this.GameProcess.MainModule.BaseAddress + 15386389 + 1, this.buffer, 1, ref num1);
+					NativeMethods.ReadProcessMemory((int)this.GameProcess.Handle, (int)this.GameProcess.MainModule.BaseAddress + 15982318 + 1, this.buffer, 1, ref num1);
 					num = BitConverter.ToUInt32(this.buffer, 0) != 0;
 				}
 				catch

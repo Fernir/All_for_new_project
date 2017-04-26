@@ -1,0 +1,55 @@
+[04/26/2017 14:19:05] Command "14:00", "start Horde-1; start Horde-2; start Horde-3; start Horde-4; start Horde-5; start Horde-6; start Alliance-1; start Alliance-2; start Alliance-3; start Alliance-4; start Alliance-5; start Alliance-6;" is loaded
+[04/26/2017 14:19:05] Command "20:59", "stop all" is loaded
+[04/26/2017 14:19:05] File commands.txt not found!
+[04/26/2017 14:19:06] WoWRelogger Version 1.1.0
+[04/26/2017 14:19:06] ******* Settings ******** 
+[04/26/2017 14:19:06] 	Auto AcceptTosEula:            False
+[04/26/2017 14:19:06] 	Allow Trials:                  True
+[04/26/2017 14:19:06] 	Auto Update HB:                True
+[04/26/2017 14:19:06] 	Check Hb's Responsiveness:     True
+[04/26/2017 14:19:06] 	Check Realm Status:            False
+[04/26/2017 14:19:06] 	HB Delay:                      3
+[04/26/2017 14:19:06] 	Login Delay:                   0
+[04/26/2017 14:19:06] 	Minimize Hb On Startup:        False
+[04/26/2017 14:19:06] 	Set GameWindow Title:          False
+[04/26/2017 14:19:06] 	Wow Start Delay:               0
+[04/26/2017 14:19:09] test: Running state: StartWowState
+[04/26/2017 14:19:10] test: Starting D:\Games\wow\Wow.exe
+[04/26/2017 14:19:10] test: Waiting for Wow to start
+[04/26/2017 14:19:10] test: Using proxy: 176.103.51.235:1080
+[04/26/2017 14:19:13] test: Wow is ready to login.
+[04/26/2017 14:19:13] System.ComponentModel.Win32Exception (0x80004005): Вызывающая сторона не обладает всеми необходимыми правами доступа
+   в System.Diagnostics.Process.SetPrivilege(String privilegeName, Int32 attrib)
+   в System.Diagnostics.Process.EnterDebugMode()
+   в GreyMagic.MemoryBase..ctor(Process proc)
+   в GreyMagic.InProcessMemoryReader..ctor(Process proc)
+   в GreyMagic.ExternalProcessReader..ctor(Process proc)
+   в iRobot.Hook..ctor(Process wowProc, WowManager wowManager) в d:\BadBoy\All_for_new_project\Source\iRobot\Hook.cs:строка 80
+   в Alex.WoWRelogger.WoW.WowLockToken.StartWoW() в d:\BadBoy\All_for_new_project\Source\Alex.WoWRelogger\WoW\WowLockToken.cs:строка 468
+   в Alex.WoWRelogger.WoW.States.StartWowState.Run() в d:\BadBoy\All_for_new_project\Source\Alex.WoWRelogger\WoW\States\StartWowState.cs:строка 60
+   в Alex.WoWRelogger.FiniteStateMachine.FiniteStateMachine.Engine.Pulse() в d:\BadBoy\All_for_new_project\Source\Alex.WoWRelogger\FiniteStateMachine\FiniteStateMachine\Engine.cs:строка 47
+   в Alex.WoWRelogger.WoW.WowManager.Pulse() в d:\BadBoy\All_for_new_project\Source\Alex.WoWRelogger\WoW\WowManager.cs:строка 518
+   в Alex.WoWRelogger.CharacterProfile.Pulse() в d:\BadBoy\All_for_new_project\Source\Alex.WoWRelogger\CharacterProfile.cs:строка 184
+   в Alex.WoWRelogger.HbRelogManager.DoWork(CharacterProfile character) в d:\BadBoy\All_for_new_project\Source\Alex.WoWRelogger\HbRelogManager.cs:строка 192
+[04/26/2017 14:19:13] test: Running state: WowWindowPlacementState
+[04/26/2017 14:19:21] test: Running state: StartWowState
+[04/26/2017 14:19:21] test: Starting D:\Games\wow\Wow.exe
+[04/26/2017 14:19:21] test: Waiting for Wow to start
+[04/26/2017 14:19:21] test: Using proxy: 193.203.51.43:1080
+[04/26/2017 14:19:24] test: Wow is ready to login.
+[04/26/2017 14:19:24] System.ComponentModel.Win32Exception (0x80004005): Вызывающая сторона не обладает всеми необходимыми правами доступа
+   в System.Diagnostics.Process.SetPrivilege(String privilegeName, Int32 attrib)
+   в System.Diagnostics.Process.EnterDebugMode()
+   в GreyMagic.MemoryBase..ctor(Process proc)
+   в GreyMagic.InProcessMemoryReader..ctor(Process proc)
+   в GreyMagic.ExternalProcessReader..ctor(Process proc)
+   в iRobot.Hook..ctor(Process wowProc, WowManager wowManager) в d:\BadBoy\All_for_new_project\Source\iRobot\Hook.cs:строка 80
+   в Alex.WoWRelogger.WoW.WowLockToken.StartWoW() в d:\BadBoy\All_for_new_project\Source\Alex.WoWRelogger\WoW\WowLockToken.cs:строка 468
+   в Alex.WoWRelogger.WoW.States.StartWowState.Run() в d:\BadBoy\All_for_new_project\Source\Alex.WoWRelogger\WoW\States\StartWowState.cs:строка 60
+   в Alex.WoWRelogger.FiniteStateMachine.FiniteStateMachine.Engine.Pulse() в d:\BadBoy\All_for_new_project\Source\Alex.WoWRelogger\FiniteStateMachine\FiniteStateMachine\Engine.cs:строка 47
+   в Alex.WoWRelogger.WoW.WowManager.Pulse() в d:\BadBoy\All_for_new_project\Source\Alex.WoWRelogger\WoW\WowManager.cs:строка 518
+   в Alex.WoWRelogger.CharacterProfile.Pulse() в d:\BadBoy\All_for_new_project\Source\Alex.WoWRelogger\CharacterProfile.cs:строка 184
+   в Alex.WoWRelogger.HbRelogManager.DoWork(CharacterProfile character) в d:\BadBoy\All_for_new_project\Source\Alex.WoWRelogger\HbRelogManager.cs:строка 192
+[04/26/2017 14:19:24] test: Running state: WowWindowPlacementState
+[04/26/2017 14:19:45] Killing Wow process
+[04/26/2017 14:19:45] Killing Wow process
