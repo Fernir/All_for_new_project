@@ -1,0 +1,46 @@
+[04/26/2017 14:25:23] Command "14:00", "start Horde-1; start Horde-2; start Horde-3; start Horde-4; start Horde-5; start Horde-6; start Alliance-1; start Alliance-2; start Alliance-3; start Alliance-4; start Alliance-5; start Alliance-6;" is loaded
+[04/26/2017 14:25:23] Command "20:59", "stop all" is loaded
+[04/26/2017 14:25:23] File commands.txt not found!
+[04/26/2017 14:25:24] WoWRelogger Version 1.1.0
+[04/26/2017 14:25:24] ******* Settings ******** 
+[04/26/2017 14:25:24] 	Auto AcceptTosEula:            False
+[04/26/2017 14:25:24] 	Allow Trials:                  True
+[04/26/2017 14:25:24] 	Auto Update HB:                True
+[04/26/2017 14:25:24] 	Check Hb's Responsiveness:     True
+[04/26/2017 14:25:24] 	Check Realm Status:            False
+[04/26/2017 14:25:24] 	HB Delay:                      3
+[04/26/2017 14:25:24] 	Login Delay:                   0
+[04/26/2017 14:25:24] 	Minimize Hb On Startup:        False
+[04/26/2017 14:25:24] 	Set GameWindow Title:          False
+[04/26/2017 14:25:24] 	Wow Start Delay:               0
+[04/26/2017 14:26:46] Accounts reloaded!
+[04/26/2017 14:26:47] test: Running state: StartWowState
+[04/26/2017 14:26:48] test: Starting D:\Games\wow\Wow.exe
+[04/26/2017 14:26:48] test: Waiting for Wow to start
+[04/26/2017 14:26:48] test: Using proxy: 176.103.50.235:1080
+[04/26/2017 14:26:51] test: Wow is ready to login.
+[04/26/2017 14:26:51] test: Exit WowLockToken:StartWoW()
+[04/26/2017 14:26:51] test: Lua state is not initialized
+[04/26/2017 14:26:51] test: Running state: WowWindowPlacementState
+[04/26/2017 14:26:53] test: Running state: LoginWowState
+[04/26/2017 14:27:32] Accounts reloaded!
+[04/26/2017 14:27:51] test: Running state: StartWowState
+[04/26/2017 14:27:51] test: Starting D:\Games\wow\Wow.exe
+[04/26/2017 14:27:51] test: Waiting for Wow to start
+[04/26/2017 14:27:51] test: Using proxy: 176.103.48.14:1080
+[04/26/2017 14:27:54] test: Wow is ready to login.
+[04/26/2017 14:27:54] test: Exit WowLockToken:StartWoW()
+[04/26/2017 14:27:54] test: Lua state is not initialized
+[04/26/2017 14:27:54] test: Running state: WowWindowPlacementState
+[04/26/2017 14:27:56] test: Running state: LoginWowState
+[04/26/2017 14:32:54] Accounts reloaded!
+[04/26/2017 14:32:59] test: Running state: StartWowState
+[04/26/2017 14:32:59] test: Starting D:\Games\wow\Wow.exe
+[04/26/2017 14:32:59] test: Waiting for Wow to start
+[04/26/2017 14:32:59] test: Using proxy: 193.169.87.154:1080
+[04/26/2017 14:33:02] test: Wow is ready to login.
+[04/26/2017 14:33:02] test: Exit WowLockToken:StartWoW()
+[04/26/2017 14:33:02] test: Lua state is not initialized
+[04/26/2017 14:33:02] test: Running state: WowWindowPlacementState
+[04/26/2017 14:33:04] test: Running state: LoginWowState
+[04/26/2017 14:34:41] Accounts reloaded!

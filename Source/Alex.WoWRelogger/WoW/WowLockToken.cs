@@ -441,7 +441,7 @@ namespace Alex.WoWRelogger.WoW
 			while (this._wowProcess.MainWindowHandle == IntPtr.Zero)
 			{
 				this._wowProcess.Refresh();
-				Thread.Sleep(100);
+				Thread.Sleep(3000);
 				num1 = num1 + 100;
 				if (num1 <= 31000)
 				{
